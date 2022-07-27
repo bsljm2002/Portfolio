@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="준비 중 입니다."
+         />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="668dp"
+        android:backgroundTint="#673AB7"
+        android:buttonTint="#673AB7"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:onClick="ServiceStart"
+        android:text="ToggleButton"
+        android:textOff="PLAY"
+        android:textOn="STOP"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/addMusicButton"
+        android:layout_width="105dp"
+        android:layout_height="63dp"
+        android:layout_alignTop="@+id/toggleButton"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/toggleButton"
+        android:text="ADD"
+        android:textSize="30sp"
+        android:onClick="addButtonClick"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton"
+        app:layout_constraintTop_toTopOf="@+id/toggleButton" />
+
+</RelativeLayout>
