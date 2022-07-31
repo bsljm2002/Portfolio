@@ -29,4 +29,4 @@ ODGA의 기능 중 사고 감지 및 자동 신고 기능 시스템의 프로세
 
 ODGA 프로젝트에서 맡은 역할로는 팀장으로 프로젝트 일정 조율, Arduino 및 Jetson Nano 하드웨어 회로 구성 및 로직 구현, 데이터 수집, 데이터 전처리, 사고 감지 딥러닝 모델 구현, 앱 UI, 자동 신고 기능을 맡았습니다. ODGA의 관련 문서로는 기획서, 사고 감지 구현 기술서, 시스템 설계서, 시연 영상이 있습니다.
 
-관련 문서 : https://drive.google.com/drive/folders/1kkKsEoexDsl1qxIhPGH46IPvR4xgTzDc
+ODGA 관련 문서 : https://drive.google.com/drive/folders/1kkKsEoexDsl1qxIhPGH46IPvR4xgTzDc
